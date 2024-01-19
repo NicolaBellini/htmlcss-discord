@@ -18,7 +18,7 @@ h1{
 
 p{
   margin: 8px 0 8px 0;
-}
+} 
 
 
 header{
@@ -33,14 +33,15 @@ header section{
 
 .navigation{
   width: 80%;
-  padding: 40px 0; 
+  padding: 20px 0; 
   margin: 0 auto;
   display: flex ;
   justify-content: space-between;
   align-items: center; 
 }
 header .logo{
-  width: 200px;
+  width: 100px;
+  height: auto;
 }
 
 .menu{
@@ -55,6 +56,11 @@ header .logo{
   color: white;
 }
 
+.menu a:hover{
+  color: #8592be;
+  transition: 0.3s;
+}
+
 header .login{
   display: flex;
   justify-content: flex-end;
@@ -65,6 +71,7 @@ header .login{
 .container-top{
   background-image: url(../img/jumbo.png);
   background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -75,7 +82,7 @@ header .login{
 .top{
   color: white;
   text-align: center;
-  padding:9% 3%;
+  padding:6% 9%;
   margin: 0 21%;
 }
 
@@ -93,8 +100,9 @@ header .login{
 }
 
 .piccolo{
-  padding: 6px 6px;
+  padding: 6px 11px;
 }
+
 .grande{
   background-color: white;
   padding: 10px 18px;
@@ -103,16 +111,34 @@ header .login{
 
 .bianco{
   background-color: white;
+  transition: 0.3s;
+}
+.bianco:hover{
+  background-color: #23272a;
+  color: white;
+  transition: 0.3s;
 }
 
 .nero{
   background-color: #23272a;
   color: white;
+  transition: 0.3s;
+}
+.nero:hover{
+  background-color: white;
+  color: black;
+  transition: 0.3s;
 }
  
 .violetto{
   background-color: #8ea1e1;
   color: white;
+  transition: 0.3s;
+}
+.violetto:hover{
+  background-color:  #404554;
+  color: white;
+  transition: 0.3s;
 }
 /* bottoni */
 
@@ -129,7 +155,7 @@ header .login{
 .box{
   height: 100%;
   width: 75%;
-  padding: 40px 0; 
+  padding: 60px 0 60px 0; 
   margin: 0 auto;
   display: flex ;
   justify-content: center;
@@ -146,7 +172,6 @@ header .login{
 }
 
 .box .testo{
-  background-color: pink;
   width: 40%;
   height: 300px;
   display: flex;
@@ -167,6 +192,10 @@ header .login{
   padding: 120px 0 120px 0;
 }
 
+.tecnologia{
+  font-size: 1.2em;
+  text-align: center;
+}
 .bottom h4{
   font-size: 1.5em;
   padding: 30px;
@@ -191,33 +220,44 @@ footer{
 }
 
 .colonne{
+  margin-top: 60px;
   padding-bottom: 10px;
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: orange;
+  /* background-color: orange; */
   align-items: flex-start;
-  border-bottom: 5px solid black;
+  border-bottom: 1px solid #758ce2;
 }
 .colonne h3{
   color: #758ce2;
 }
+
 .colonna-grande{
-  background-color: red;
+  height: 100px;
   width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 /* .colonna-grande h3{
 } */
-.colonna-grande p{color: white;}
+.colonna-grande span{
+  color: white;
+}
 
 colonna-piccola{
   background-color: orange;
   width: 17.5%;
 }
+.colonna-piccola p{
+  color: white;
+}
 
 .footer-sotto{
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 50px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -235,6 +275,16 @@ colonna-piccola{
   justify-content: space-between;
 }
 
+.icons a{
+  text-decoration: none;
+  color: white;
+}
+
+.icons a:hover{
+  text-decoration: none;
+  color: rgb(180, 178, 178);
+}
+
 .italiano{
   display: flex;
   height: 20px;
@@ -246,6 +296,15 @@ colonna-piccola{
   width: auto;
 }
 
-.italiano p{
-  vertical-align: bottom;
+.colonne a{
+  text-decoration: none;
+}
+
+.colonne a:hover{
+  : (180, 178, 178);
+}
+
+#freccetta{
+  vertical-align: top; 
+  font-size: 2em;
 }
