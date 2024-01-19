@@ -204,6 +204,14 @@ header .login{
   width: 100%;
   height: auto;
 }
+
+.stelline{
+  text-align: center;
+  width: 100%; 
+  background-image: url(../img/stars.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
 /* fine parte prima del footer */
 
 
@@ -300,9 +308,9 @@ colonna-piccola{
   text-decoration: none;
 }
 
-.colonne a:hover{
+/* .colonne a:hover{
   : (180, 178, 178);
-}
+} */
 
 #freccetta{
   vertical-align: top; 
