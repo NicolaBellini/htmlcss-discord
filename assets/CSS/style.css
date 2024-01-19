@@ -123,9 +123,17 @@ header .login{
  /* fine prima parte sotto l header */
 
  /* inizio seconda parte */
+.grey{
+  background-color:#f6f6f6;
+  
+}
+.white{
+  background-color: white;
+}
 
 .box{
-  width: 80%;
+  height: 100%;
+  width: 75%;
   padding: 40px 0; 
   margin: 0 auto;
   display: flex ;
@@ -138,29 +146,29 @@ header .login{
 }
  
 .box .immagine{
-  background-color: red;
   width: 60%;
-  height:300px;
+  height:auto;
 }
 
 .box .testo{
   background-color: pink;
   width: 40%;
   height: 300px;
+  font-size: 2em;
 }
 /* fine seconda parte */
 
 /* container con lo sfondo grigio */
 
-.container-grey{
+/* .container-grey{
   background-color: grey;
-}
+} */
 
 
  /* parte finale con l immagine grande prima del footer */
 .bottom{
-  background-color: green;
-  margin: 0 14%;
+  background-color: rgb(94, 180, 94);
+  margin: 0 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
