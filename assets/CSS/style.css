@@ -14,7 +14,6 @@ body{
 
 h1{
   padding: 20px 0 20px 0;
-  font-size: 3em;
 }
 
 p{
@@ -41,13 +40,10 @@ header section{
   align-items: center; 
 }
 header .logo{
-  /* background-color: yellow; */
   width: 200px;
 }
 
 .menu{
-  /* padding: 0 20px 0 20px; */
-  font-size: 1.4em;
   display:flex;
   justify-content: space-around;
   background-color: #3161e0;
@@ -83,9 +79,6 @@ header .login{
   margin: 0 21%;
 }
 
-.top p{
-  font-size: 1.5em;
-}
 
 .top h1{
   font-size: 3em;
@@ -93,7 +86,6 @@ header .login{
 /* bottoni */ 
 
 .bottone{
-  font-size: 1.2em;
   margin: 5px;
   cursor: pointer;
   border: none;
@@ -117,10 +109,13 @@ header .login{
   background-color: #23272a;
   color: white;
 }
+ 
+.violetto{
+  background-color: #8ea1e1;
+  color: white;
+}
 /* bottoni */
 
-/* prima parte sotto lheader */
- /* fine prima parte sotto l header */
 
  /* inizio seconda parte */
 .grey{
@@ -154,37 +149,37 @@ header .login{
   background-color: pink;
   width: 40%;
   height: 300px;
-  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 /* fine seconda parte */
 
-/* container con lo sfondo grigio */
-
-/* .container-grey{
-  background-color: grey;
-} */
 
 
  /* parte finale con l immagine grande prima del footer */
 .bottom{
-  background-color: rgb(94, 180, 94);
   margin: 0 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 120px 0 120px 0;
 }
 
-.bottom img{
-  width: 600px;
-  height: 500px;
-
+.bottom h4{
+  font-size: 1.5em;
+  padding: 30px;
+}
+.img-grande{
+  width: 100%;
+  height: auto;
 }
 /* fine parte prima del footer */
 
 
 footer{
-  background-color: rgb(64, 67, 64);
+  background-color: #23272a;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -205,11 +200,16 @@ footer{
   align-items: flex-start;
   border-bottom: 5px solid black;
 }
-
+.colonne h3{
+  color: #758ce2;
+}
 .colonna-grande{
   background-color: red;
   width: 30%;
 }
+/* .colonna-grande h3{
+} */
+.colonna-grande p{color: white;}
 
 colonna-piccola{
   background-color: orange;
@@ -226,4 +226,26 @@ colonna-piccola{
 .footer-sotto img{
   height: 40px;
   width: 100px;
+}
+
+.icons{
+  display: flex;
+  width: 100px;
+  height: 20px;
+  justify-content: space-between;
+}
+
+.italiano{
+  display: flex;
+  height: 20px;
+  width: auto;
+}
+ 
+.italiano img{
+  height: 20px;
+  width: auto;
+}
+
+.italiano p{
+  vertical-align: bottom;
 }
