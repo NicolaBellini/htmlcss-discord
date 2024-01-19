@@ -3,14 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+img{
+  width: 100%;
+}
+
 body{
   font-family: 'Roboto', sans-serif;
 }
+
+h1{
+  padding: 20px 0 20px 0;
+  font-size: 3em;
+}
+
+p{
+  margin: 8px 0 8px 0;
+}
+
+
 header{
   background-color: #3161e0;
   padding: 10px;
 }
-
 
 header section{
   display: flex;
@@ -31,6 +46,8 @@ header .logo{
 }
 
 .menu{
+  /* padding: 0 20px 0 20px; */
+  font-size: 1.4em;
   display:flex;
   justify-content: space-around;
   background-color: #3161e0;
@@ -41,6 +58,7 @@ header .logo{
   text-decoration: none;
   color: white;
 }
+
 header .login{
   display: flex;
   justify-content: flex-end;
@@ -48,9 +66,9 @@ header .login{
   width: 200px;
 }
 
-/* prima parte sotto lheader */
 .container-top{
-  background-color: #4436bd;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -59,11 +77,49 @@ header .login{
 }
 
 .top{
+  color: white;
   text-align: center;
-  padding: 10% 15%;
-  background-color: rgb(219, 51, 107);
+  padding:9% 3%;
   margin: 0 21%;
 }
+
+.top p{
+  font-size: 1.5em;
+}
+
+.top h1{
+  font-size: 3em;
+}
+/* bottoni */ 
+
+.bottone{
+  font-size: 1.2em;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+}
+
+.piccolo{
+  padding: 6px 6px;
+}
+.grande{
+  background-color: white;
+  padding: 10px 18px;
+  font-weight: 600;
+}
+
+.bianco{
+  background-color: white;
+}
+
+.nero{
+  background-color: #23272a;
+  color: white;
+}
+/* bottoni */
+
+/* prima parte sotto lheader */
  /* fine prima parte sotto l header */
 
  /* inizio seconda parte */
