@@ -172,11 +172,16 @@ header .login{
 }
 
 .box .testo{
+  padding:0 7% 0 7%;
   width: 40%;
   height: 300px;
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.testo h2{
+  font-weight: 800;
 }
 /* fine seconda parte */
 
@@ -317,3 +322,11 @@ colonna-piccola{
   font-size: 2em;
 }
 
+.onde{
+  transform: translateY(10px);
+}
+
+.onde-upside-down{
+  height: 60px;
+  transform: rotate(180deg);
+}
